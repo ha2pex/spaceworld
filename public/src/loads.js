@@ -7,7 +7,7 @@ function loadApp(path) {
 		<li><a href="${path}/contact.html" class="navElem-L">Contact</a></li>
 		<li class="dropdown">
 			<img src="${path}/static/icons/flag-en.svg" />
-			<ul>
+			<ul class="submenu">
 				<li><a class="navElem-R"><img src="${path}/static/icons/flag-fr.svg" onClick="setLanguage('fr')" /></a></li>
 				<li><a class="navElem-R"><img src="${path}/static/icons/flag-uk.svg" onClick="setLanguage('uk')" /></a></li>
 			</ul>
