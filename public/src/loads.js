@@ -6,5 +6,5 @@ function loadApp(path) {
 	<a href="${path}/contact.html" class="navElem-L">Contact</a>
 	<a class="navElem-R"><img src="${path}/static/icons/flag-fr.svg" onClick="setLanguage('fr')" /></a>
 	<a class="navElem-R"><img src="${path}/static/icons/theme.svg" onClick="changeTheme()" /></a>`
-	document.getElementById('navbar');
+	document.getElementById('navbar').innerHTML = navbarContent;
 }
