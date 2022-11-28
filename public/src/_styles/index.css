@@ -27,6 +27,12 @@ footer {
 	padding: 64px;
 }
 
+
+img {
+	border-radius: 4px;
+	max-width: 100%;
+}
+
 /*** Thanks to codeur.com for the code below ***/
 
 nav#navbar {
@@ -44,6 +50,10 @@ nav#navbar > ul {
  
 ul, li {
   list-style-type: none;
+}
+
+li > img {
+	margin: 4px;
 }
 
 nav#navbar > ul > li {
