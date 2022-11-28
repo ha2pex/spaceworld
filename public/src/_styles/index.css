@@ -1,0 +1,28 @@
+@import url('variables.css');
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Avenir, sans-serif;
+	transition-duration: 0.4s;
+}
+
+body {
+	background-color: var(--background-initial);
+	color: var(--text-initial);
+}
+
+header {
+	background-color: var(--background-darker);
+	color: white;
+	padding: 128px;
+	text-align: center;
+}
+div.content {
+	padding: 64px;
+}
+footer {
+	background-color: var(--secondary);
+	color: white;
+	padding: 64px;
+}
