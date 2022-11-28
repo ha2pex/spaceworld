@@ -17,7 +17,6 @@ header {
 	color: white;
 	padding: 128px;
 	text-align: center;
-	margin-top: 56px;
 }
 div.content {
 	padding: 64px;
@@ -43,7 +42,7 @@ nav#navbar > ul {
   height: 56px;
 }
  
-nav#navbar ul {
+ul, li {
   list-style-type: none;
 }
 
@@ -60,7 +59,7 @@ nav#navbar > ul > li > a {
   transform: translate(-50%, -50%);
 }
 
-nav#bavbar li a {
+li a {
   text-decoration: none;
   color: white;
 }
