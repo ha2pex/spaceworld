@@ -32,6 +32,13 @@ img {
 	border-radius: 4px;
 	max-height: 100%;
 }
+#main-logo {
+	height: 128px;
+	width: 128px;
+	border-radius: 32px;
+	margin-bottom: 32px;
+	box-shadow: 0 4px 8px 4px var(--primary);
+}
 
 .btn {
 	background-color: var(--background-lighter);
