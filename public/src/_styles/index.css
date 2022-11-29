@@ -27,6 +27,11 @@ footer {
 	padding: 64px;
 }
 
+a {
+	text-decoration: none;
+	font-weight: 500;
+	color: var(--primary);
+}
 
 img {
 	border-radius: 4px;
@@ -49,6 +54,12 @@ img {
 }
 .btn-white {
 	background-color: white;
+}
+.btn-discord {
+	background-color: #5865f2;
+}
+.btn-discord a {
+	color: white;
 }
 
 .navbar {
