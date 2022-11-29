@@ -1,18 +1,11 @@
 function loadApp(path) {
 	var path = path;
 	const navbarContent = `
-	<ul>
-		<li><a href="${path}"><img src="${path}/static/assets/WSIcon.png" /></a></li>
-		<li><a href="${path}/get-started.html">Get started</a></li>
-		<li><a href="${path}/contact.html">Contact</a></li>
-		<li class="dropdown">
-			<a><img src="${path}/static/icons/flag-uk.svg" /></a>
-			<ul class="submenu">
-				<li><a><img src="${path}/static/icons/flag-fr.svg" onClick="setLanguage('fr')" /></a></li>
-				<li><a><img src="${path}/static/icons/flag-uk.svg" onClick="setLanguage('uk')" /></a></li>
-			</ul>
-		</li>
-		<li><a class="navElem-R"><img src="${path}/static/icons/theme.svg" onClick="changeTheme()" /></a></li>
-	</ul>`
+	<div class="navbar">
+		<a class="left" href="#"><img class="logo" src="WSIcon.png" /></a>
+		<button><a class="left" href="#">Text 1</a></button>
+		<button><a class="left" href="#">Text 2</a></button>
+		<button><a class="right" href="#">Text 3</a></button>
+	</div>`
 	document.getElementById('navbar').innerHTML = navbarContent;
 }
