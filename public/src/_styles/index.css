@@ -121,7 +121,7 @@ div.qotw {
 }
 
 @media (max-width: 480px) {
-	header, div.ection,  footer {
+	header, div.section,  footer {
 		padding: 32px;
 	}
 	
