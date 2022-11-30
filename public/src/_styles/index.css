@@ -85,7 +85,7 @@ div.qotw {
 }
 div.box {
 	border-radius: 32px;
-	padding: 32px;
+	padding: 64px;
 	margin: 16px 0;
 }
 #rp {
@@ -151,8 +151,8 @@ div.box {
 	div.qotw {
 		padding: 8px 32px;
 	}
-	.box {
+	div.box {
 		border-radius: 16px;
-		padding: 16px;
+		padding: 32px;
 	}
 }
