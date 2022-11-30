@@ -43,7 +43,7 @@ img {
 	width: 128px;
 	border-radius: 32px;
 	margin-bottom: 32px;
-	box-shadow: 0 4px 8px 4px var(--primary);
+	box-shadow: 0 1px 2px 1px var(--primary);
 }
 .icon {
 	height: 32px;
@@ -64,8 +64,17 @@ img {
 .btn-discord {
 	background-color: #5865f2;
 }
-.btn-discord a {
+.btn-discord a,
+.btn-filled a {
 	color: white;
+}
+
+div.qotw {
+	background-image: url('/static/images/qotd.png');
+	height: 64px;
+	border-radius: 32px;
+	color: white;
+	box-shadow: 0 1px 2px 1px #c8cfdc;
 }
 
 .navbar {
