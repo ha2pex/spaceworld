@@ -84,17 +84,18 @@ div.qotw {
 	box-shadow: 0 1px 2px 0 #c8cfdc;
 }
 div.box {
+	background-color: var(--secondary);
+	color: white;
 	border-radius: 32px;
 	padding: 64px;
 	margin: 16px 0;
+	box-shadow: 0 1px 2px 0 var(--shadow);
 }
-#rp {
-	background-color: var(--secondary);
+div.box > h3 {
 	color: white;
-	box-shadow: 0 1px 3px 0 var(--shadow);
 }
-#rp > h3 {
-	color: white;
+#pro {
+	background-color: var(--primary);
 }
 
 .navbar {
