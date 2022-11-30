@@ -71,10 +71,10 @@ img {
 
 div.qotw {
 	background-image: url('/static/images/qotd.png');
-	height: 128px;
 	border-radius: 64px;
 	margin: 16px;
 	padding: 16px 16px 16px 64px;
+	font-size: 16px;
 	color: white;
 	box-shadow: 0 1px 2px 1px #c8cfdc;
 }
