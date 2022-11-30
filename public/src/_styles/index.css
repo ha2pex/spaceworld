@@ -46,10 +46,10 @@ img {
 	box-shadow: 0 1px 2px 1px var(--primary);
 }
 .icon {
-	height: 32px;
-	width: 32px;
-	border-radius: 16px;
-	vertical-alignment: baseline;
+	height: 36px;
+	width: 36px;
+	border-radius: 18px;
+	transform: translate(0, 2px);
 }
 
 .btn {
