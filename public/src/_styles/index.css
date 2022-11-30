@@ -91,7 +91,7 @@ div.box {
 #rp {
 	background-color: var(--secondary);
 	color: white;
-	box-shadow: 0 1px 3px 1px var(--secondary);
+	box-shadow: 0 1px 3px 1px var(--shadow);
 }
 #rp > h3 {
 	color: white;
@@ -150,5 +150,8 @@ div.box {
 	}
 	div.qotw {
 		padding: 8px 32px;
+	}
+	.box {
+		padding: 24px;
 	}
 }
