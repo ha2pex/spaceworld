@@ -45,9 +45,9 @@ img {
 	box-shadow: 0 4px 8px 4px var(--primary);
 }
 .icon {
-	height: 24px;
-	width: 24px;
-	border-radius: 12px;
+	height: 32px;
+	width: 32px;
+	border-radius: 16px;
 }
 
 .btn {
