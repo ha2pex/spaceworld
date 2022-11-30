@@ -65,6 +65,9 @@ img {
 .btn-discord {
 	background-color: #5865f2;
 }
+.btn-filled {
+	background-color: var(--primary);
+}
 .btn-discord a,
 .btn-filled a {
 	color: white;
@@ -89,6 +92,9 @@ div.box {
 	background-color: var(--secondary);
 	color: white;
 	box-shadow: 0 1px 3px 1px var(--secondary);
+}
+#rp > h3 {
+	color: white;
 }
 
 .navbar {
