@@ -72,6 +72,7 @@ img {
 
 div.qotw {
 	background-image: url('https://spaceworldfr.vercel.app/static/images/qotw.png');
+	background-size: contain;
 	border-radius: 64px;
 	margin: 16px 0;
 	padding: 16px 64px;
