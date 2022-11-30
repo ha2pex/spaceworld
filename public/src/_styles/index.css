@@ -43,7 +43,7 @@ img {
 	width: 128px;
 	border-radius: 32px;
 	margin-bottom: 32px;
-	box-shadow: 0 1px 2px 1px var(--primary);
+	box-shadow: 0 1px 2px 0 var(--primary);
 }
 .icon {
 	height: 36px;
@@ -81,7 +81,7 @@ div.qotw {
 	padding: 16px 64px;
 	font-size: 16px;
 	color: white;
-	box-shadow: 0 1px 2px 1px #c8cfdc;
+	box-shadow: 0 1px 2px 0 #c8cfdc;
 }
 div.box {
 	border-radius: 16px;
@@ -91,7 +91,7 @@ div.box {
 #rp {
 	background-color: var(--secondary);
 	color: white;
-	box-shadow: 0 1px 3px 1px var(--shadow);
+	box-shadow: 0 1px 3px 0 var(--shadow);
 }
 #rp > h3 {
 	color: white;
