@@ -70,7 +70,7 @@ img {
 }
 
 div.qotw {
-	background-image: url('/static/images/qotd.png');
+	background-image: url('/public/static/images/qotd.png');
 	border-radius: 64px;
 	margin: 16px;
 	padding: 16px 16px 16px 64px;
