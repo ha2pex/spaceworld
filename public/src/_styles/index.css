@@ -80,6 +80,16 @@ div.qotw {
 	color: white;
 	box-shadow: 0 1px 2px 1px #c8cfdc;
 }
+div.box {
+	border-radius: 16px;
+	padding: 32px;
+	margin: 16px 0;
+}
+#rp {
+	background-color: var(--secondary);
+	color: white;
+	box-shadow: 0 1px 3px 1px var(--secondary);
+}
 
 .navbar {
 	background-color: #6957ff;
