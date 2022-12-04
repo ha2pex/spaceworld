@@ -19,7 +19,7 @@ h3 {
 }
 
 p {
-	margin: 0 16px;
+	margin: 16px 0;
 }
 
 li {
@@ -34,6 +34,6 @@ li {
 		font-size: 18px;
 	}
 	p { 
-		margin: 0 8px;
+		margin: 8px 0;
 	}
 }
