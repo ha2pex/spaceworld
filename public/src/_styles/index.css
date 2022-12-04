@@ -20,12 +20,12 @@ header {
 	text-align: center;
 }
 div.section {
-	padding: 64px;
+	padding: 48px;
 }
 footer {
 	background-color: var(--secondary);
 	color: white;
-	padding: 64px;
+	padding: 48px;
 }
 
 a {
@@ -35,20 +35,20 @@ a {
 }
 
 img {
-	border-radius: 4px;
+	border-radius: 12px;
 	max-height: 100%;
 }
 #main-logo {
 	height: 128px;
 	width: 128px;
-	border-radius: 32px;
-	margin-bottom: 32px;
+	border-radius: 64px;
+	margin-bottom: 64px;
 	box-shadow: 0 1px 2px 0 var(--shadow);
 }
 .icon {
-	height: 36px;
-	width: 36px;
-	border-radius: 18px;
+	height: 24px;
+	width: 24px;
+	border-radius: 12px;
 	transform: translate(0, 2px);
 }
 
