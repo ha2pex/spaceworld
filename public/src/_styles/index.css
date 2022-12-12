@@ -41,8 +41,8 @@ img {
 #main-logo {
 	height: 128px;
 	width: 128px;
-	border-radius: 64px;
-	margin-bottom: 64px;
+	border-radius: 32px;
+	margin-bottom: 32px;
 	box-shadow: 0 1px 2px 0 var(--shadow);
 }
 .icon {
