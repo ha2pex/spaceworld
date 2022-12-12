@@ -26,6 +26,17 @@ li {
 	list-style-type: none;
 }
 
+
+.price {
+	text-align: center;
+	align-self: center;
+	background-color: #ffffff;
+	color: var(--primary);
+	box-shadow: 0 2px 4px 2px var(--primary);
+	padding: 8px;
+} 
+
+
 @media (max-width: 480px) {
 	h2 {
 		font-size: 20px;
