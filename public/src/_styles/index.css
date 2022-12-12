@@ -101,9 +101,7 @@ div.box > h3 {
 .navbar {
 	background-color: var(--primary);
 	height: 48px;
-	padding: 4px 0;
-	position: fixed;
-	top: 0;
+	padding: 48px 0;
 }
 
 .navbar > button {
@@ -112,7 +110,7 @@ div.box > h3 {
 	margin: 0 2px;
 	background-color: transparent;
 	border: none;
-	border-radius: 4px;
+	border-radius: 6px;
 }
 .navbar > button:hover {
 	background-color: #00002020;
@@ -128,7 +126,7 @@ div.box > h3 {
 	margin: 0 2px;
 	background-color: transparent;
 	border: none;
-	border-radius: 4px;
+	border-radius: 6px;
 }
 .navbar * {
 	font-size: 16px;
@@ -161,4 +159,14 @@ div.box > h3 {
 	.btn {
 		border-radius: 6px;
 	}
+	
+	.navbar {
+		padding: 4px 0;
+	}
+/*	.navbar {
+		display: none;
+	} 
+	.navbar-mobile {
+		display: inherit;
+	}*/
 }
