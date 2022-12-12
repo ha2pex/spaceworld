@@ -35,6 +35,8 @@ li {
 	box-shadow: 0 2px 4px 2px var(--primary);
 	padding: 8px;
 	border-radius: 32px;
+	margin: 0;
+	margin-top: 16px;
 } 
 
 
