@@ -99,7 +99,7 @@ div.box > h3 {
 }
 
 .navbar {
-	background-color: #6957ff;
+	background-color: var(--primary);
 	height: 48px;
 	padding: 4px 0;
 }
