@@ -3,8 +3,8 @@ function loadApp(path) {
 	const mNavbarContent = `
 	<div class="navbar">
 		<a class="left" href="${path}"><img class="logo" src="${path}/static/assets/WSIcon.png" /></a>
-		<button><a class="left" href="${path}/codex.html"><img src="${path}/static/assets/icons/codex.svg" class="navbarIcon" /></a>
-		<button><a class="left" href="${path}/contact.html><img src="${path}/static/assets/icons/mail-open.svg" class="navbarIcon" /></a>
+		<button><a class="left" href="${path}/codex.html"><img src="${path}/static/icons/codex.svg" class="navbarIcon" /></a>
+		<button><a class="left" href="${path}/contact.html><img src="${path}/static/icons/mail-open.svg" class="navbarIcon" /></a>
 	</div>`
 	document.getElementById('navbar-mobile').innerHTML = mNavbarContent;
 	
