@@ -128,6 +128,10 @@ div.box > h3 {
 	border: none;
 	border-radius: 6px;
 }
+.navbar-icon {
+	height: 24px;
+	width: 24px;
+}
 .navbar * {
 	font-size: 16px;
 }
