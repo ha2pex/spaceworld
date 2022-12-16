@@ -167,11 +167,17 @@ div.box > h3 {
 	
 	.navbar {
 		padding: 4px;
+		background-color: var(--background-darker);
 	}
 	#navbar {
 		display: none;
 	} 
 	#navbar-mobile {
 		display: inherit;
+		background-color: var(--primary);
+		position: fixed;
+		top: 8px;
+		right: 8px;
+		lefr: 8px;
 	}
 }
