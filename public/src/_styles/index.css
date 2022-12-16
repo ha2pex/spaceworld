@@ -148,7 +148,9 @@ div.box > h3 {
 	header, div.section,  footer {
 		padding: 32px;
 	}
-	
+	footer {
+		padding-bottom: 120px;
+	}
 	.icon {
 		height: 16px;
 		width: 16px;
