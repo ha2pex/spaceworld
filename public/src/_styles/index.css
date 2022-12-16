@@ -49,6 +49,7 @@ img {
 	height: 16px;
 	width: 16px;
 	border-radius: 8px;
+	transform: translate(0, 4px);
 }
 
 .btn {
