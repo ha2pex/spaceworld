@@ -43,7 +43,7 @@ img {
 	width: 128px;
 	border-radius: 32px;
 	margin-bottom: 32px;
-	box-shadow: 0 2px 3px -1px var(--shadow);
+	box-shadow: 0 3px 5px 2px var(--shadow);
 }
 .icon {
 	height: 16px;
@@ -79,7 +79,7 @@ div.box {
 	border-radius: 16px;
 	padding: 32px;
 	margin: 16px 0;
-	box-shadow: 0 2px 3px 0px var(--shadow);
+	box-shadow: 0 3px 5px 2px var(--shadow);
 }
 div.box > h3 {
 	color: white;
