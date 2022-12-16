@@ -6,7 +6,7 @@ function loadApp(path) {
 		<button><a class="left" href="${path}/codex.html"><img src="${path}/static/assets/icons/book.svg" class="navbarIcon" /></a>
 		<button><a class="left" href="${path}/contact.html><img src="${path}/static/assets/icons/mail-open.svg" class="navbarIcon" /></a>
 	</div>`
-	document.getElementById('navbar-mobile").innerHTML = mNavbarContent;
+	document.getElementById('navbar-mobile').innerHTML = mNavbarContent;
 	
 	const navbarContent = `
 	<div class="navbar">
