@@ -4,9 +4,9 @@ function loadApp(path) {
 	<div class="navbar">
 		<button><img src="${path}/static/icons/codex.svg" class="navbarIcon" /></button>
 		<button><img src="${path}/static/icons/mail-open.svg" class="navbarIcon" /></button>
-		<button><img src="${path}/static/assets/WSIcon-white.png" class="navbarIcon" /></button>
-		<button><img src="${path}/static/icons/discord.svg" class="navbarIcon" /></button>
-		<button><img src="${path}/static/icons/flag-fr.svg" class="navbarIcon" /></button>
+		<button><img src="${path}/static/assets/home.svg" class="navbarIcon" /></button>
+		<button><img src="${path}/static/icons/join.svg" class="navbarIcon" /></button>
+		<button><img src="${path}/static/icons/privacy.svg" class="navbarIcon" /></button>
 	</div>`
 	document.getElementById('navbar-mobile').innerHTML = mNavbarContent;
 	
