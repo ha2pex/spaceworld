@@ -43,7 +43,7 @@ img {
 	width: 128px;
 	border-radius: 32px;
 	margin-bottom: 32px;
-	box-shadow: 0 1px 2px 0 var(--shadow);
+	box-shadow: 0 3px 5px 2px var(--shadow);
 }
 .icon {
 	height: 16px;
@@ -73,23 +73,13 @@ img {
 	color: white;
 }
 
-div.qotw {
-	background-image: url('https://spaceworldfr.vercel.app/static/images/qotw.png');
-	background-size: contain;
-	border-radius: 64px;
-	margin: 16px 0;
-	padding: 16px 64px;
-	font-size: 16px;
-	color: white;
-	box-shadow: 0 1px 2px 0 #c8cfdc;
-}
 div.box {
 	background-color: var(--secondary);
 	color: white;
 	border-radius: 16px;
 	padding: 32px;
 	margin: 16px 0;
-	box-shadow: 0 1px 2px 0 var(--shadow);
+	box-shadow: 0 3px 5px 2px var(--shadow);
 }
 div.box > h3 {
 	color: white;
