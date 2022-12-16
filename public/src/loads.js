@@ -2,9 +2,11 @@ function loadApp(path) {
 	var path = path;
 	const mNavbarContent = `
 	<div class="navbar">
-		<a class="left" href="${path}"><img class="logo" src="${path}/static/assets/WSIcon.png" /></a>
 		<button><img src="${path}/static/icons/codex.svg" class="navbarIcon" /></button>
 		<button><img src="${path}/static/icons/mail-open.svg" class="navbarIcon" /></button>
+		<button><img src="${path}/static/assets/WSIcon-white.png" class="navbarIcon" /></button>
+		<button><img src="${path}/static/icons/discord.svg" class="navbarIcon" /></button>
+		<button><img src="${path}/static/icons/flag-fr.svg" class="navbarIcon" /></button>
 	</div>`
 	document.getElementById('navbar-mobile').innerHTML = mNavbarContent;
 	
