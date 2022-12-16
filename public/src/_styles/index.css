@@ -176,8 +176,9 @@ div.box > h3 {
 		display: inherit;
 		background-color: var(--primary);
 		position: fixed;
-		top: 8px;
-		right: 8px;
-		lefr: 8px;
+		bottom: 16px;
+		right: 16px;
+		left: 16px;
+		border-radius: 16px;
 	}
 }
