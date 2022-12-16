@@ -160,13 +160,13 @@ div.box > h3 {
 		border-radius: 6px;
 	}
 	
-	.navbar-mobile {
+	#navbar-mobile {
 		padding: 4px 0;
 	}
-	.navbar {
+	#navbar {
 		display: none;
 	} 
-	.navbar-mobile {
+	#navbar-mobile {
 		display: inherit;
 	}
 }
