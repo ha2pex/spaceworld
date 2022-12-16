@@ -49,7 +49,6 @@ img {
 	height: 16px;
 	width: 16px;
 	border-radius: 8px;
-	transform: translate(0, 2px);
 }
 
 .btn {
@@ -142,10 +141,7 @@ div.box > h3 {
 		padding-bottom: 96px;
 	}
 	.icon {
-		height: 16px;
-		width: 16px;
-		border-radius: 8px;
-	}
+
 
 	div.box {
 		border-radius: 16px;
