@@ -2,11 +2,11 @@ function loadApp(path) {
 	var path = path;
 	const mNavbarContent = `
 	<div class="navbar">
-		<button><img src="${path}/static/icons/codex.svg" class="navbarIcon" /></button>
-		<button><img src="${path}/static/icons/mail-open.svg" class="navbarIcon" /></button>
-		<button><img src="${path}/static/icons/home.svg" class="navbarIcon" /></button>
-		<button><img src="${path}/static/icons/join.svg" class="navbarIcon" /></button>
-		<button><img src="${path}/static/icons/privacy.svg" class="navbarIcon" /></button>
+		<button onClick="open('codex.html')"><img src="${path}/static/icons/codex.svg" class="navbarIcon" /></button>
+		<button onClick="open('contact.html')"><img src="${path}/static/icons/mail-open.svg" class="navbarIcon" /></button>
+		<button onClick="open('.')"><img src="${path}/static/icons/home.svg" class="navbarIcon" /></button>
+		<button onClick="open('${invite}')"><img src="${path}/static/icons/join.svg" class="navbarIcon" /></button>
+		<button onClick="open('privacy.html')"><img src="${path}/static/icons/privacy.svg" class="navbarIcon" /></button>
 	</div>`
 	document.getElementById('navbar-mobile').innerHTML = mNavbarContent;
 	
@@ -25,4 +25,8 @@ function loadApp(path) {
 	<button class="btn btn-discord"><a href="https://discord.com" target="_blank">Discord</a></button>
 	<button class="btn btn-white"><a href="#header">Haut de page</a></button>`
 	document.getElementById('footer').innerHTML = footerContent;	
+}
+
+function open(link) {
+	window.location.replace = link;
 }
