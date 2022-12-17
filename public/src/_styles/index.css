@@ -154,6 +154,9 @@ div.box > h3 {
 		padding: 4px;
 		background-color: transparent;
 	}
+	.navbar > button:hover {
+		background-color: var(--primary);
+	}
 	#navbar {
 		display: none;
 	} 
