@@ -165,8 +165,8 @@ div.box > h3 {
 		background-color: var(--secondary);
 		position: fixed;
 		bottom: 16px;
-		right: 19px;
-		left: 19px;
+		right: 18px;
+		left: 18px;
 		border-radius: 6px;
 		text-align: center;
 		box-shadow: 0 3px 5px 2px #00002040;
