@@ -88,6 +88,9 @@ div.box > h3 {
 	background-color: var(--primary);
 }
 
+#navbar-mobile {
+	display: none;
+}
 .navbar {
 	background-color: var(--primary);
 	height: 48px;
